@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend', sans-serif;
+}
+.card{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+.number{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 80px;
+    font-weight: 300;
+}
+
+.btnGroup{
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.positive{
+    background-color: rgb(2, 176, 118);
+}
+.reset{
+    background-color: rgb(255, 190, 39);
+}
+.negative{
+    background-color: rgb(240, 69, 69);
+}
